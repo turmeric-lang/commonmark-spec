@@ -1,0 +1,36 @@
+{
+  "sources": {
+    "commonmark": {
+      "name": "CommonMark Spec",
+      "version": "0.31.2",
+      "repository": "https://github.com/commonmark/commonmark-spec",
+      "tag": "0.31.2",
+      "commit": "9103e341a973013013bb1a80e13567007c5cef6f",
+      "path": "spec.txt",
+      "sha256": "257c41ad946f7a1414a499aca402a1aa8fdac3678532266611348c1cf54f4b80",
+      "author": "John MacFarlane",
+      "license": "CC-BY-SA-4.0"
+    },
+    "gfm": {
+      "name": "GitHub Flavored Markdown Spec",
+      "version": "0.29-gfm",
+      "repository": "https://github.com/github/cmark-gfm",
+      "tag": "0.29.0.gfm.13",
+      "commit": "587a12bb54d95ac37241377e6ddc93ea0e45439b",
+      "path": "test/spec.txt",
+      "sha256": "7d8e5814befec287ac116786d81ff14e0adc9b13295b4494649e995408fd871c",
+      "author": "GitHub (github/cmark-gfm); based on the CommonMark Spec by John MacFarlane",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  "outputs": {
+    "commonmark/0.31.2/spec.json": {
+      "from": "commonmark",
+      "examples": 652
+    },
+    "gfm/0.29-gfm/extensions.json": {
+      "from": "gfm",
+      "examples": 24
+    }
+  }
+}
